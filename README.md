@@ -1,7 +1,7 @@
 # Cub3D
 ## Wolfenstein3d inspired Raycasting project
 
-The aim of this project was to extract information from a .cub file and use that information to draw a 3d maze on the screen using raycasting principles.
+The aim of this project was to extract information from a .cub file and use that information to draw a 3d maze on the screen using raycasting principles ans 42's custom minilibx library.
 
 ### Example of a valid cub file's information:
 ```
