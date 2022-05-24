@@ -6,7 +6,7 @@
 /*   By: jperras <jperras@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/22 09:02:29 by jperras           #+#    #+#             */
-/*   Updated: 2022/05/06 10:12:48 by jperras          ###   ########.fr       */
+/*   Updated: 2022/05/24 19:18:00 by dhaliti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	main(int ac, char **av)
 	t_data	*data;
 
 	if (ac != 2)
-		exit_error("Error\nInsufficient number of arguments");
+		exit_error("Error\nWrong number of arguments");
 	if (!(ft_strrchr(av[1], '.')) || ft_strncmp((ft_strrchr(av[1], '.')),
 			".cub", 4) != 0)
 		exit_error("Error\nInvalid map extension");
