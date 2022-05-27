@@ -78,3 +78,27 @@ void	ft_init_parse_and_data(t_parse **parse, t_data **data)
 	*data = (t_data *)malloc(sizeof(t_data));
 	(*data)->map = (char **)malloc(sizeof(char **) * 1000);
 }
+
+void	exit_free(t_data *data)
+{
+	int	i;
+
+	if (data->n)
+		free(data->n);
+	if (data->s)
+		free(data->s);
+	if (data->e)
+		free(data->e);
+	if (data->w)
+		free(data->w);
+	i = -1;
+	while (data->map && data->map[++i])
+		free(data->map[i]);
+	free(data->map);
+	i = -1;
+	while (data->map2 && data->map2[++i])
+		free(data->map2[i]);
+	free(data->map2);
+	free(data);
+	exit(0);
+}

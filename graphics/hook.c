@@ -110,7 +110,7 @@ void	ft_left_right(t_data *data, int key)
 int	key(int key, t_data *data)
 {
 	if (key == 53)
-		exit(0);
+		exit_free(data);
 	if (key == 13)
 		ft_move_player(data, 1.0);
 	if (key == 1)

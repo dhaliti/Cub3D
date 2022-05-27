@@ -69,7 +69,6 @@ static int	w_texture(char *line, t_parse *parse, t_data *data)
 		exit_error("Error: West texture's path cannot be found");
 	path[1][ft_strlen(path[1]) - 1] = '\0';
 	fd = open(path[1], O_RDONLY);
-	printf("%s\n", path[1]);
 	if (fd < 0 || path[2])
 		exit_error("Error: West texture's path cannot be found");
 	close(fd);

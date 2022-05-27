@@ -79,5 +79,6 @@ t_data	*ft_parse_map(char *map)
 		exit_error("Invalid texture or player");
 	ft_check_map(parse->map, data, fd);
 	data->map2 = parse->map;
+	free(parse);
 	return (data);
 }

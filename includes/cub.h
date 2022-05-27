@@ -127,6 +127,7 @@ void			ft_texture(char *line, t_parse *parse, t_data *data);
 void			exit_error(char *msg);
 void			ft_put_one(char **map);
 void			ft_puthexa(int b, int *m, char *c);
+void			exit_free(t_data *data);
 void			ft_check_map(char **map, t_data *data, int fd);
 int				f_color(char *line, t_parse *parse, t_data *data);
 int				c_color(char *line, t_parse *parse, t_data *data);
