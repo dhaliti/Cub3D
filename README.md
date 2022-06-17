@@ -10,7 +10,7 @@ This project is inspired by the world-famous eponymous 90's game, which was the 
 ## Execute
 
 ```
-make && ./cub3D maps/*.map
+make && ./cub3D maps/*.cub
 ```
 
 ### Preview
