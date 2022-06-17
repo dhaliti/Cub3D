@@ -14,5 +14,6 @@ make && ./cub3D maps/*.map
 ```
 
 ### Preview
-
 <img width="600" alt="Screen Shot 2022-06-17 at 5 17 56 PM" src="https://user-images.githubusercontent.com/105823790/174329815-5c767ac1-f5d6-4d8b-93b4-0560cc85a55b.png">
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com)
