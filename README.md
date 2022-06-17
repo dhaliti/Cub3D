@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/105823790/171860148-c0b11827-51de-42e1-8213-e1e83249b081.png" width="150" height="150">
 
-# Cub3D
+# cub3D
 Inspired by the world-famous eponymous 90's game, cub3D is an introduction to raycasting
 
 ## Description
@@ -14,4 +14,5 @@ make && ./cub3D maps/*.map
 ```
 
 ### Preview
-<img width="600" alt="cub3D preview" src="https://user-images.githubusercontent.com/105823790/174328394-1cf78c04-4af9-45f1-a45f-0bcd96cf49ec.png">
+
+<img width="600" alt="Screen Shot 2022-06-17 at 5 17 56 PM" src="https://user-images.githubusercontent.com/105823790/174329815-5c767ac1-f5d6-4d8b-93b4-0560cc85a55b.png">
